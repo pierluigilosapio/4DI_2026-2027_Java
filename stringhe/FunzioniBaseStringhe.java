@@ -97,6 +97,25 @@ public class FunzioniBaseStringhe {
         System.out.printf("\ns2='%s'",s2);
         System.out.printf("\ns1.compareTo(s2)=%d>0",s1.compareTo(s2));
         System.out.printf("\n'%s'>'%s'",s1,s2);
+
+        // Per ricercare di una stringa s2 all'interno di una stringa s1
+        // si usa il metodo della classe String indexOf() che restituisce
+        // l'indice di inizio della sottostringa s2 in s1 (se presente)
+        // altrimenti restituisce -1.
+        System.out.print("\n\n--------------------");
+        s1="cucinino";
+        s2="nino";
+        System.out.printf("\nRicerca della stringa '%s' nella stringa '%s'",s2,s1);
+        int pos=s1.indexOf(s2);
+        System.out.printf("\nLa stringa è presente a partire dalla posizione %d",pos);
+        
+        // ricerca di una stringa (non presente) all'interno di una stringa
+        System.out.print("\n\n--------------------");
+        s1="cucinino";
+        s2="ciao";
+        System.out.printf("\nRicerca della stringa '%s' nella stringa '%s'",s2,s1);
+        pos=s1.indexOf(s2); // restituisce -1 perchè la stringa non è stata trovata
+        System.out.printf("\nLa stringa è presente a partire dalla posizione %d",pos);
         
         
         
