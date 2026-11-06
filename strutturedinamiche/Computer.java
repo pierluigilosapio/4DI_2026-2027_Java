@@ -13,7 +13,7 @@ public class Computer {
 	}
 	
 	// metodo distruttore: consente di eseguire alcune operazioni
-	// prima della distruzione dell'oggetto in memoria
+	// prima della distruzione dell'oggetto in memoria ad opera del Garbage Collector
 	public void finalize() {
 		System.out.printf("\nDistruzione oggetto %s %s %s",modello,produttore,new Date());
 	}
