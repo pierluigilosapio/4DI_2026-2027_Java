@@ -38,7 +38,7 @@ public class GestioneAutomaticaMemoria {
 		Scanner in=new Scanner(System.in);
 		in.nextLine();
 		
-		
+		in.close();
 		System.out.printf("Fine");
 	}
 
