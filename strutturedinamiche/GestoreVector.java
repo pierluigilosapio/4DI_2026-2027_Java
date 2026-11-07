@@ -1,5 +1,3 @@
-package strutturedinamiche;
-
 import java.util.Vector;
 
 /**
@@ -12,7 +10,7 @@ public class GestoreVector {
 		
 		// dichiara/alloca un array dinamico
 		// di oggetti di tipo Computer con capacity 10 (predefinita)
-		// La notazione <> Ë detta 'diamond operator'.
+		// La notazione <> √® detta 'diamond operator'.
 		Vector<Computer> lc=new Vector<Computer>();
 		
 		// dichiara/alloca un array dinamico
@@ -23,7 +21,7 @@ public class GestoreVector {
 		System.out.printf("capacity: %d, size: %d",lc.capacity(),lc.size());
 		
 		// aggiunge elementi al vector per forzare l'incremento
-		// della capacit‡.
+		// della capacit√†.
 		for(int i=0;i<41;i++) {
 			// aggiunge alla fine un oggetto di tipo Computer
 			lc.addElement(new Computer("modello"+i,"produttore"+i)); 
