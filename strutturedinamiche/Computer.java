@@ -1,4 +1,4 @@
-package strutturedinamiche;
+package strutturedinamiche.pila;
 
 import java.util.Date;
 
@@ -34,4 +34,7 @@ public class Computer {
 		this.produttore = produttore;
 	}
 	
+	public String toString() {
+		return "["+modello+"/"+produttore+"]";
+	}
 }
