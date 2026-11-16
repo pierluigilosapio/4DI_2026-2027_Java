@@ -73,19 +73,24 @@ public class CodaGenerica<T> {
 	public static void main(String[] args) {
 		// istanzia una coda di oggetti di tipo di Automobile
 		CodaGenerica<Automobile> cg=new CodaGenerica<Automobile>();
-		
+
+		// aggiunge un nuovo elemento alla coda e visualizza l'elenco degli elementi in essa presenti.
 		cg.push(new Automobile("TARGA1","Fiat 500 Abarth"));
 		cg.list();
-		
+
+		// aggiunge un nuovo elemento alla coda e visualizza l'elenco degli elementi in essa presenti.
 		cg.push(new Automobile("TARGA2","Toyota Yaris"));
 		cg.list();
-		
+
+		// legge e visualizza l'elemento che ci trova all'inizio della coda.
 		Automobile a=cg.begin();
 		System.out.print("\nProssimo veicolo: "+a);
-		
+
+		// estrae e visualizza l'elemento che ci trova all'inizio della coda.
 		a=cg.pop();
 		System.out.print("\nVeicolo entrato: "+a);
-		
+
+		// visualizza l'elenco degli elementi presenti nella coda.
 		cg.list();
 		
 		System.out.println("\n\nProgramma terminato.");
