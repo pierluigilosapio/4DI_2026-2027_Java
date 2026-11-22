@@ -34,6 +34,8 @@ public class ObjectFileWriter {
 			oos.writeObject(c);
 			System.out.println("Oggetto salvato.");
 		} catch (IOException e) {
+			// errore di scrittura nel file.
+			// il programma continua con la chiusura del file.
 			System.err.println("ERRORE: impossibile scrivere nel file.");
 		}
 		
