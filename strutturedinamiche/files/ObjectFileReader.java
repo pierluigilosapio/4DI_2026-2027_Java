@@ -8,8 +8,6 @@ import java.io.InvalidClassException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import strutturedinamiche.pila.Automobile;
-
 /**
  * Legge un file di oggetti.
  *
