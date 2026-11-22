@@ -8,7 +8,7 @@ public class Computer implements Serializable {
 	/**
 	 * Serve a impostare la versione della classe
 	 */
-	private static final long serialVersionUID = 2L;
+	private static final long serialVersionUID = 1L;
 	
 	private String modello;
 	private String produttore;
